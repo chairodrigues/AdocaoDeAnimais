@@ -6,7 +6,7 @@
  }
 
  header {
-     background-color: #4CAF50;
+     background-color: #cff474;
      color: white;
      text-align: center;
      padding: 1em 0;
@@ -39,7 +39,7 @@
  .about h2,
  .animals h2,
  .contact h2 {
-     color: #4CAF50;
+     color: #ff0000;
  }
 
  .animal {
@@ -60,7 +60,7 @@
  }
 
  footer {
-     background-color: #4CAF50;
+     background-color: #cff474;
      color: white;
      text-align: center;
      padding: 1em 0;
