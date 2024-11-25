@@ -37,21 +37,31 @@
             <section id="animals" class="animals">
                 <h2>Animais para Adoção</h2>
                 <div class="animal">
-                    <figure> 
-						<img src="c:\users\nomad\documents\github\testecriacaosite\images\cachorro2.jpg" />
+                    <figure>
+                        <img src="...\images/images.jpeg"> 
+                        <figcaption>
+                            Filhotes peludos com cores cinza,
+                            branco e preto em seu pelo, com as linguas para fora
+                        </figcaption>
+                        <h3>Rex</h3>
+                        <p>Idade: 2 anos</p>
                     </figure>
-                    <h3>Rex</h3>
-                    <p>Idade: 2 anos</p>
                 </div>
-                <div class="animal"> 
-                    <img src="c:\users\nomad\documents\github\testecriacaosite\images\gato-albino-scaled.webp" />
-                    <h3>Mia</h3>
-                    <p>Idade: 1 ano</p>
+                <div class ="animal">
+                    <figure>
+                        <img src="...\images/gato-albino-scaled.webp"> 
+                        <figcaption>Gato peludo todo branco com olhos um azul e outro amarelo</figcaption>
+                        <h3>Mia</h3>
+                        <p>Idade: 1 ano</p>
+                    </figure>
                 </div>
                 <div class="animal">
-                    <img src="c:\users\nomad\documents\github\testecriacaosite\images\cachorro.webp" />
-                    <h3>Thor</h3>
-                    <p>Idade: 3 anos</p>
+                    <figure>
+                        <img src="...\images/cachorro.webp"> 
+                        <figcaption>Filhote cor caramelo com coleira vermelha</figcaption>
+                        <h3>Thor</h3>
+                        <p>Idade: 3 anos</p>
+                    </figure>
                 </div>
 			</section>
 
@@ -62,18 +72,33 @@
 
                 <h2>Entre em Contato</h2> <br />
                 <form action="/enviar-contato" method="post">
-                    <label for="nome">Nome:</label><br />
-                    <input type="text" id="nome" name="nome" required><br />
-                    <label for="email">E-mail:</label><br />
-                    <input type="text" id="email" name="email" required><br />
-                    <label for="telefone">Telefone:</label><br />
-                    <input type="text" id="telefone" name="telefone"><br />
-                    <label for="mensagem">Mensagem:</label><br />
-                    <textarea id="mensagem" name="mensagem"></textarea><br />
-                    <title>Botão Personalizado</title><br />
-                    <link rel="stylesheet" href="style.css">
+                    
+                    <section class="align-content-center">
+                        <p>
+                            <label for="name" >Nome:</label><br />
+                            <input type="text" id="nome" name="nome" 
+                                onclose="Preencha seu nome completo" required>
+                        </p>
+                        <p>
+                            <label for="email">E-mail:</label><br />
+                            <input type="text" id="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="telefone">Telefone:</label><br />
+                            <input type="text" id="telefone" name="telefone">
+                        </p>
+                        <p>
+                            <label spellcheck="true" for="mensagem">Mensagem:</label><br />
+                            <textarea id="mensagem" name="mensagem"></textarea>
+                        </p>
+                        <title>Botão Personalizado</title>
+                        <link rel="stylesheet" href="style.css">
 
-                    <button class="botao-personalizado">Clique Aqui</button>
+                    </section>
+
+                    <section>
+                        <button class="botao-personalizado">Clique Aqui</button>
+                    </section>
                     
                 </form>
             </section>
